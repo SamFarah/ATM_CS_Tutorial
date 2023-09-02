@@ -133,7 +133,7 @@ public class cardHolder
             catch (Exception) { Console.WriteLine("Card not recognized, Please try again"); }
         }
 
-        Console.WriteLine("Please enter your pint: ");
+        Console.WriteLine("Please enter your pin: ");
         int userPin = 0;
 
         while (true)
