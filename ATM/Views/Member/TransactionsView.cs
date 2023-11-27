@@ -27,7 +27,7 @@ public class TransactionsView : ITransactionsView
         // TODO: handle paging
 
         Console.Write("╔");
-        Console.Write("".PadLeft(21, '═'));
+        Console.Write("".PadLeft(23, '═'));
         Console.Write("╤");
         Console.Write("".PadLeft(15, '═'));
         Console.Write("╤");
@@ -41,7 +41,7 @@ public class TransactionsView : ITransactionsView
         Console.CursorLeft = left;
         Console.Write("║");
         Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.Write("Date".PadRight(21, ' '));
+        Console.Write("Date".PadRight(23, ' '));
         Console.ForegroundColor = Styles.MainBorder.TextColor;
         Console.Write("│");
 
@@ -67,7 +67,7 @@ public class TransactionsView : ITransactionsView
 
         Console.CursorLeft = left;
         Console.Write("╟");
-        Console.Write("".PadLeft(21, '─'));
+        Console.Write("".PadLeft(23, '─'));
         Console.Write("┼");
         Console.Write("".PadLeft(15, '─'));
         Console.Write("┼");
@@ -84,7 +84,7 @@ public class TransactionsView : ITransactionsView
             {
                 Console.CursorLeft = left;
                 Console.Write("║");
-                Console.Write(transaction.TimeStamp.ToString().PadRight(21, ' '));
+                Console.Write(transaction.TimeStamp.ToString().PadRight(23, ' '));
                 Console.Write("│");
 
 
@@ -127,7 +127,7 @@ public class TransactionsView : ITransactionsView
 
         Console.CursorLeft = left;
         Console.Write("╚");
-        Console.Write("".PadLeft(21, '═'));
+        Console.Write("".PadLeft(23, '═'));
         Console.Write("╧");
         Console.Write("".PadLeft(15, '═'));
         Console.Write("╧");
